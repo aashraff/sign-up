@@ -2,7 +2,7 @@
   "name": "gym-time",
   "version": "0.0.1",
   "description": "Gym Time self-serve signup module",
-  "productName": "gym-time",
+  "productName": "Gym Time",
   "cordovaId": "org.app.gymtime",
   "capacitorId": "",
   "author": "Adish Ashraff",

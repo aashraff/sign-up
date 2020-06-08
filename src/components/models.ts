@@ -1,4 +1,6 @@
-export interface Model1 {
+export interface Account {
   id: number;
-  name: string;
+  fullName: string;
+  emailId: string;
+  password: string;
 }
