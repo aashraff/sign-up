@@ -2,6 +2,11 @@
 
 Gym Time self-serve signup module
 
+# Technology
+ - VueJs
+ - Quasar
+ - Javascript
+
 # To do
 - API integration
 - Sign up flow
