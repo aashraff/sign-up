@@ -2,6 +2,11 @@
 
 Gym Time self-serve signup module
 
+# To do
+- API integration
+- Sign up flow
+- Validations
+
 ## Install the dependencies
 ```bash
 yarn
