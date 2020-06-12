@@ -6,6 +6,6 @@
 
 <script lang="ts">
 export default {
-  name: 'Gym Time App'
+  name: 'GymTimeApp'
 }
 </script>

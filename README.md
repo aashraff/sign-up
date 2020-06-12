@@ -1,16 +1,19 @@
-# gym-time (gym-time)
+# gym-time
 
 Gym Time self-serve signup module
 
 ## Technology
- - VueJs
- - Quasar
- - Javascript
+ - Vue.js 3
+ - Quasar 1
+ - Javascript ES6
+ - Typescript 3.9
+ - REST
+ - Node 12
+ - Yarn
 
 ## To do
-- API integration
 - Sign up flow
-- Validations
+- Unit test
 
 ## Install the dependencies
 ```bash
@@ -32,5 +35,5 @@ yarn run lint
 quasar build
 ```
 
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+### Browser support
+- Does not support IE 11 or older as this uses ES6+ modern build in Typescript and Quasar

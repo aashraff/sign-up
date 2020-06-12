@@ -13,7 +13,7 @@ const { configure } = require('quasar/wrappers')
 module.exports = configure(function (ctx) {
   return {
     // https://quasar.dev/quasar-cli/cli-documentation/supporting-ie
-    supportIE: true,
+    supportIE: false,
 
     // https://quasar.dev/quasar-cli/cli-documentation/supporting-ts
     supportTS: {
@@ -27,7 +27,8 @@ module.exports = configure(function (ctx) {
     // --> boot files are part of "main.js"
     // https://quasar.dev/quasar-cli/cli-documentation/boot-files
     boot: [
-      'composition-api'
+      'composition-api',
+      'axios'
     ],
 
     // https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-css
@@ -58,7 +59,7 @@ module.exports = configure(function (ctx) {
       // Does not applies to modern builds.
       // transpileDependencies: [],
 
-      // modern: true, // https://quasar.dev/quasar-cli/modern-build
+      modern: true, // https://quasar.dev/quasar-cli/modern-build
       // rtl: false, // https://quasar.dev/options/rtl-support
       // preloadChunks: true,
       // showProgress: false,
@@ -107,7 +108,9 @@ module.exports = configure(function (ctx) {
       directives: [],
 
       // Quasar plugins
-      plugins: []
+      plugins: [
+        'Notify'
+      ]
     },
 
     // animations: 'all', // --- includes all animations

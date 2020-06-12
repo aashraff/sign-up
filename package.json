@@ -5,7 +5,7 @@
   "productName": "Gym Time",
   "cordovaId": "org.app.gymtime",
   "capacitorId": "",
-  "author": "Adish Ashraff",
+  "author": "Adish",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
@@ -16,6 +16,8 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "@vue/composition-api": "^0.5.0",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
     "quasar": "^1.9.5"
   },
   "devDependencies": {
